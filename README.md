@@ -108,6 +108,14 @@ print(len(train_data))
 
 
 #### 한글과 공백제외하고 모두 제거
+```
+train_data['document'] = train_data['document'].str.replace("[^ㄱ-ㅎㅏ-ㅣ가-힣 ]","")
+train_data[:5]
+```
+
+<img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/ba14d820-fbb1-4083-8b10-088cda32a000>
+
+
 
 
 
