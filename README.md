@@ -1,5 +1,5 @@
 # KOELECTRA를 활용한 네이버 영화 리뷰 분석
-<img src = https://www.google.com/imgres?imgurl=https%3A%2F%2Fssl.pstatic.net%2Fstatic%2Fm%2Fmovie%2Ficons%2Fnaver_movie_favicon.ico&tbnid=i5qDlBnu7LD8UM&vet=12ahUKEwi_1K6Qyq6CAxXFfXAKHU2SAXAQMygEegQIARBR..i&imgrefurl=https%3A%2F%2Fm.photoviewer.naver.com%2Fmovie%3FlistUrl%3Dhttp%253A%252F%252Fm.movie.naver.com%252Fm%252Fcategory%252Fmovie%252FCurrentMovie.nhn%26type%3Dmovie%26movieCode%3D35175%26imgId%3D2620979&docid=i5zycUY93KrieM&w=256&h=256&q=%EB%84%A4%EC%9D%B4%EB%B2%84%EC%98%81%ED%99%94&ved=2ahUKEwi_1K6Qyq6CAxXFfXAKHU2SAXAQMygEegQIARBR width="2000" height="500">**출처:** 이미지출처 bing 이미지 ai
+<img src = https://github.com/dlwjddn7922/tensorflow/assets/79899654/b95adf43-793e-4549-8c43-01bf5ed5428f width="2000" height="500">**출처:** 이미지출처 bing 이미지 ai
 
 # 1. 개요
 이번 프로젝트에서는 한국어 자연어 처리 모델인 KOELECTRA를 활용하여 네이버 영 리뷰의 긍부정 예측을 하고자 한다.
