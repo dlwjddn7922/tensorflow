@@ -53,9 +53,6 @@
 |146183|6070594|마무리는 또 왜이래|0|
 
 
-
-<img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/71bd1cc7-c40c-4677-b460-8334a688c35e>
-
 ## 2.2 탐색적 데이터 분석
 #### 데이터 분포
 
@@ -67,7 +64,7 @@ print('총 샘플의 수 :',len(train_data))
 train_data['label'].value_counts().plot(kind = 'bar')
 ```
 <img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/a5bb63d7-c143-430b-9d82-246adcb141be>
-```
+
 print(train_data.groupby('label').size().reset_index(name = 'count'))
 ```
    label  count
@@ -78,10 +75,10 @@ print(train_data.groupby('label').size().reset_index(name = 'count'))
 ## 2.3 데이터 전처리
 #### 결측치 제거
 ```
-ed!train_data.loc[train_data.document.isnull()]
+train_data.loc[train_data.document.isnull()]
 ```
 <img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/dd6f594c-d1b5-4e38-a7e3-10bff62d884c>
-```
+
 train_data = train_data.dropna(how = 'any') # Null 값이 존재하는 행 제거
 print(train_data.isnull().values.any()) # Null 값이 존재하는지 확인
 ```
