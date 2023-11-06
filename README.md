@@ -71,13 +71,13 @@ train_data['label'].value_counts().plot(kind = 'bar')
 
 ```
 print(train_data.groupby('label').size().reset_index(name = 'count'))
+```
+```
+   label  count
+0      0  73342
+1      1  72841
+```
 
-```
-|-|label|count|
-|0|0|73342|
-|1|1|72841|
-```
-```
 
 ## 2.3 데이터 전처리
 #### 결측치 제거
@@ -101,7 +101,9 @@ False
 ```
 print(len(train_data))
 ```
+```
 146182
+```
 
 
 
