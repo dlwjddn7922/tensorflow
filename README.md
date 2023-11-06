@@ -59,13 +59,17 @@
 ```
 print('총 샘플의 수 :',len(train_data))
 ```
+```
 총 샘플의 수 : 146183
 ```
 train_data['label'].value_counts().plot(kind = 'bar')
 ```
+```
 <img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/a5bb63d7-c143-430b-9d82-246adcb141be>
-
+```
+```
 print(train_data.groupby('label').size().reset_index(name = 'count'))
+```
 ```
    label  count
 0      0  73342
