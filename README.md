@@ -65,10 +65,10 @@ print('총 샘플의 수 :',len(train_data))
 ```
 train_data['label'].value_counts().plot(kind = 'bar')
 ```
-```
+
 <img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/a5bb63d7-c143-430b-9d82-246adcb141be>
 
-```
+
 ```
 print(train_data.groupby('label').size().reset_index(name = 'count'))
 
@@ -77,9 +77,11 @@ print(train_data.groupby('label').size().reset_index(name = 'count'))
 0      0  73342
 1      1  72841
 ```
+```
 
 ## 2.3 데이터 전처리
 #### 결측치 제거
+
 ```
 train_data.loc[train_data.document.isnull()]
 ```
