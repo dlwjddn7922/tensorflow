@@ -73,9 +73,9 @@ train_data['label'].value_counts().plot(kind = 'bar')
 print(train_data.groupby('label').size().reset_index(name = 'count'))
 
 ```
-   label  count
-0      0  73342
-1      1  72841
+|-|label|count|
+|0|0|73342|
+|1|1|72841|
 ```
 ```
 
@@ -85,7 +85,7 @@ print(train_data.groupby('label').size().reset_index(name = 'count'))
 ```
 train_data.loc[train_data.document.isnull()]
 ```
-```
+
 <img src=https://github.com/dlwjddn7922/tensorflow/assets/79899654/dd6f594c-d1b5-4e38-a7e3-10bff62d884c>
 
 ```
@@ -102,6 +102,8 @@ False
 print(len(train_data))
 ```
 146182
+
+
 
 #### 한글과 공백제외하고 모두 제거
 
